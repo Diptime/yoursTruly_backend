@@ -10,7 +10,7 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 mongoose
   .connect(
-    "mongodb+srv://admin:ESjtvUtwLfVb8c2F@cluster0.tdimc.mongodb.net/Blog?retryWrites=true&w=majority"
+    "mongodb+srv://dipti:yAMH5925ImSdUfPp@cluster0.iy4sgjp.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => app.listen(5000))
   .then(() =>
